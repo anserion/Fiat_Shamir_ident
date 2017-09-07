@@ -1,0 +1,33 @@
+Zero-knowledge proof Fiat-Shamir identity protocol (verifier side)
+n - public modulo (number)
+V - public property of the secret (number)
+X - public question from prover (number)
+E - request bit to prover (number 0 or 1)
+Y - public answer from prover (number)
+n=77
+waiting from the prover: V=15
+
+waiting from the prover: X=11
+to the prover: E=0
+waiting from the prover (0 - exit): Y=44
+OK
+
+waiting from the prover: X=1
+to the prover: E=1
+waiting from the prover (0 - exit): Y=20
+OK
+
+waiting from the prover: X=71
+to the prover: E=1
+waiting from the prover (0 - exit): Y=69
+OK
+
+waiting from the prover: X=16
+to the prover: E=0
+waiting from the prover (0 - exit): Y=59
+OK
+
+waiting from the prover: X=71
+to the prover: E=0
+waiting from the prover (0 - exit): Y=48
+OK
